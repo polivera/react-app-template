@@ -1,0 +1,32 @@
+{
+  "name": "madafu-frontend",
+  "version": "1.0.0",
+  "description": "Madafu APP Frontend",
+  "main": "main.tsx",
+  "author": "Pablo Olivera <p.oliverav@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "co-dev-server",
+    "build": "co-prod-build"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-is": "^18.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "@types/styled-components": "^5.1.25",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "co-react-webpack-build": "^1.0.24",
+    "eslint": ">=8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-xo": "^0.41.0",
+    "eslint-plugin-react": "^7.30.0",
+    "prettier": "2.6.2",
+    "typescript": "^4.6.4"
+  }
+}
